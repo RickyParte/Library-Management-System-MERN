@@ -9,7 +9,7 @@ import { AuthContext } from '../../../../Context/AuthContext'
 
 function Return() {
 
-    const API_URL = process.env.REACT_APP_API_URL
+    const API_URL = 'http://3.111.139.9:4000/'
     const { user } = useContext(AuthContext)
 
     const [allTransactions, setAllTransactions] = useState([])
