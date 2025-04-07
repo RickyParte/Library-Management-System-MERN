@@ -9,7 +9,7 @@ import moment from "moment"
 
 function AddTransaction() {
 
-    const API_URL = process.env.REACT_APP_API_URL
+    const API_URL = 'http://3.111.139.9:4000/'
     const [isLoading, setIsLoading] = useState(false)
     const { user } = useContext(AuthContext)
 
